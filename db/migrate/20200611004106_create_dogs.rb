@@ -4,7 +4,7 @@ class CreateDogs < ActiveRecord::Migration[5.2]
       t.string :name 
       t.string :breed
   end
-end 
+  end 
   
   def up 
     create_table :dogs do |t|
